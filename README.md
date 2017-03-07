@@ -41,7 +41,7 @@ With `pattern: "^_[A-Z][a-z]+(?:[A-Z][a-z]+)*(\.scss|\.css)?"` (PascalCase with 
 
 ## Usage
 
-Add `"stylelint-at-rule-import-case"` to your stylelint config `plugins` array, then add `at-rule-import-case` to your rules, set to your preferred options.
+Add `"stylelint-at-rule-import-case"` to your stylelint config `plugins` array, then add `at-rule-import-case/at-rule-import-case` to your rules, set to your preferred options.
 
 As follows:
 
@@ -51,8 +51,8 @@ As follows:
     "stylelint-at-rule-import-case"
   ],
   "rules": {
-    "at-rule-import-case": [true, {
-      case: "kebab-case"
+    "at-rule-import-case/at-rule-import-case": [true, {
+      "case": "kebab-case"
     }]
   }
 };

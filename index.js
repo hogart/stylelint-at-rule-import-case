@@ -1,7 +1,7 @@
 'use strict';
 
 const stylelint = require('stylelint');
-const ruleName = 'at-rule-import-case';
+const ruleName = 'at-rule-import-case/at-rule-import-case';
 const messages = stylelint.utils.ruleMessages(ruleName, {
     rejectedPattern: 'File name should follow given pattern in import statements',
     camelCase: 'File name should be in camelCase in import statements',
