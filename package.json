@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-at-rule-import-case",
+  "version": "1.0.0",
+  "description": "A custom stylelint rule to enforce consistent filenames in @import statements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogart/stylelint-at-rule-import-case.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "linter"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hogart/stylelint-at-rule-import-case/issues"
+  },
+  "homepage": "https://github.com/hogart/stylelint-at-rule-import-case#readme",
+  "devDependencies": {
+    "stylelint-rule-tester": "0.6.2",
+    "tape": "4.6.3"
+  },
+  "dependencies": {
+    "stylelint": "7.9.0"
+  }
+}
